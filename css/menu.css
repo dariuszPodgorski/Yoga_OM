@@ -14,7 +14,7 @@
 
 .site-nav_logo {
     padding-top: 8px;
-    width: 90px;
+    width: 100px;
     height: 35px;
 
 }
@@ -34,6 +34,9 @@
 .site-nav_menu-trigger {
     display: inline-block;
     color: #745a82;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
 }
 
 .site-nav_menu-actions {
@@ -42,6 +45,50 @@
 
 
 @media (min-width: 1024px) {
+
+    .site-nav {
+
+        width: 100vw;
+        height: 70px;
+        justify-content: flex-start;
+    }
+
+    .site-nav_logo-wrapper {
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-nav_logo {
+        padding: 10px;
+        width: 140px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .site-nav_menu-actions {
+        padding-right: 50px;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .site-nav_menu-action {
+        align-self: center;
+        margin-right: 40px;
+        list-style: none;
+    }
+
+    .site-nav_menu-action a {
+        font-family: 'Nunito', sans-serif;
+        color: #745a82;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        font-size: 18px;
+        text-decoration: none;
+
+        ;
+    }
 
     .site-nav_menu-trigger {
         display: none;
