@@ -1,2 +1,11 @@
 @import url('menu.css');
 @import url('rest.css');
+
+@import url('main.css');
+
+.site-top {
+    background-image: url('../imgaes/top/top.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
